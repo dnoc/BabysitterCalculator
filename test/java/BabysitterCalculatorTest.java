@@ -13,7 +13,7 @@ public class BabysitterCalculatorTest {
 
     @Test
     public void whenCalculateIsCalledItCalculatesPay() {
-        assertEquals("$68.00", babysitterCalculator.calculate(5, 8));
+        assertEquals("$132.00", babysitterCalculator.calculate(5, 8, 4));
     }
 
     @Test
