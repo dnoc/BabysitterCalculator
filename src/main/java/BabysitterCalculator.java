@@ -12,6 +12,10 @@ public class BabysitterCalculator {
             return "Start time cannot be before 5.";
         } else if ((startTime > bedTime) || (bedTime > MIDNIGHT)) {
             return "Bed time must be between " + startTime + " and Midnight.";
+        } else if (endTime > 4) {
+            return "End time cannot be after 4.";
+        } else if (endTime < 0) {
+            return "End time cannot be before Midnight.";
         } else {
             int pay = calculatePay(startTime, bedTime, endTime);
             return "$" + pay + ".00";

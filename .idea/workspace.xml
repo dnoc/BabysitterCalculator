@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="881a282e-7d3f-445a-88c5-00e575ea088d" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/test/BabysitterCalculator/BabysitterCalculatorTest.class" afterPath="$PROJECT_DIR$/out/test/BabysitterCalculator/BabysitterCalculatorTest.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/java/BabysitterCalculatorTest.java" afterPath="$PROJECT_DIR$/test/java/BabysitterCalculatorTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/BabysitterCalculator.java" afterPath="$PROJECT_DIR$/src/main/java/BabysitterCalculator.java" />
     </list>
     <ignored path="BabysitterCalculator.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -26,7 +24,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="BabysitterCalculatorTest.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="BabysitterCalculatorTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test/java/BabysitterCalculatorTest.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="128">
@@ -40,11 +38,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BabysitterCalculator.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="BabysitterCalculator.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/BabysitterCalculator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="14" column="9" selection-start-line="14" selection-start-column="9" selection-end-line="14" selection-end-column="9" />
+            <state relative-caret-position="306">
+              <caret line="18" column="9" selection-start-line="18" selection-start-column="9" selection-end-line="18" selection-end-column="9" />
               <folding />
             </state>
           </provider>
@@ -518,9 +516,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="BabysitterCalculatorTest - 2016.07.18 at 13h 27m 47s.xml">
-      <configuration name="BabysitterCalculatorTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="BabysitterCalculatorTest - 2016.07.18 at 13h 28m 42s.xml">
       <configuration name="BabysitterCalculatorTest" configurationId="JUnit" />
     </history-entry>
@@ -546,6 +541,9 @@
       <configuration name="BabysitterCalculatorTest" configurationId="JUnit" />
     </history-entry>
     <history-entry file="BabysitterCalculatorTest - 2016.07.18 at 14h 02m 48s.xml">
+      <configuration name="BabysitterCalculatorTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BabysitterCalculatorTest - 2016.07.18 at 14h 03m 09s.xml">
       <configuration name="BabysitterCalculatorTest" configurationId="JUnit" />
     </history-entry>
   </component>
@@ -611,14 +609,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/BabysitterCalculator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="9" selection-start-line="14" selection-start-column="9" selection-end-line="14" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test/java/BabysitterCalculatorTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="128">
@@ -628,6 +618,14 @@
             <element signature="e#265#266#0" expanded="true" />
             <element signature="e#330#331#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/BabysitterCalculator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="9" selection-start-line="18" selection-start-column="9" selection-end-line="18" selection-end-column="9" />
+          <folding />
         </state>
       </provider>
     </entry>
