@@ -1,7 +1,7 @@
 package main.java;
 
 public class BabysitterCalculator {
-    public String calculate() {
-        return "$1.00";
+    public String calculate(int startTime) {
+        return "$" + startTime + ".00";
     }
 }
