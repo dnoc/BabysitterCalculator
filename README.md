@@ -26,4 +26,7 @@ Here is my initial layout of tests:
 ```
 I'll see if it goes according to that.
 
+It's complete now. I probably should have added the additional calculation tests at the beginning, rather than the end, but other than that, I think it looks good. Check the commits for the progression of changes.
+I got a little bogged down on what changes to make, as far as "How much should I change between creating failing tests and creating passing code?" goes, but that's just me getting used to TDD.
+
 
