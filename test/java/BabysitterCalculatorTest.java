@@ -29,4 +29,9 @@ public class BabysitterCalculatorTest {
         assertEquals("Bed time must be between 5 and Midnight.", babysitterCalculator.calculate(5, 13, 3));
     }
 
+    @Test
+    public void whenEndTimeIsOutOfBoundsCalculateReturnsAMessage() {
+        assertEquals("End time cannot be after 4.", babysitterCalculator.calculate(7, 10, 6));
+        assertEquals("End time cannot be before Midnight.", babysitterCalculator.calculate(7, 10, -1));
+    }
 }
