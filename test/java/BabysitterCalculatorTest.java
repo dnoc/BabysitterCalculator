@@ -18,7 +18,7 @@ public class BabysitterCalculatorTest {
 
     @Test
     public void whenStartTimeIsLessThanFiveCalculateReturnsAMessage() {
-        assertEquals("Start time cannot be before 5.", babysitterCalculator.calculate(1));
+        assertEquals("Start time cannot be before 5.", babysitterCalculator.calculate(1, 8));
     }
 
 }
