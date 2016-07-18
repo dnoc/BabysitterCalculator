@@ -12,8 +12,8 @@ public class BabysitterCalculatorTest {
     }
 
     @Test
-    public void whenCalculateIsCalledItReturnsADollarString() {
-        assertEquals("$1.00", babysitterCalculator.calculate(1));
+    public void whenCalculateIsCalledItCalculatesStartTime() {
+        assertEquals("$16.00", babysitterCalculator.calculate(1));
     }
 
 }

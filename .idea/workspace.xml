@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="881a282e-7d3f-445a-88c5-00e575ea088d" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/BabysitterCalculator.java" afterPath="$PROJECT_DIR$/src/main/java/BabysitterCalculator.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/java/BabysitterCalculatorTest.java" afterPath="$PROJECT_DIR$/test/java/BabysitterCalculatorTest.java" />
     </list>
     <ignored path="BabysitterCalculator.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -28,7 +28,7 @@
         <entry file="file://$PROJECT_DIR$/test/java/BabysitterCalculatorTest.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="255">
-              <caret line="15" column="65" selection-start-line="15" selection-start-column="65" selection-end-line="15" selection-end-column="65" />
+              <caret line="15" column="66" selection-start-line="15" selection-start-column="66" selection-end-line="15" selection-end-column="66" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#265#266#0" expanded="true" />
@@ -71,8 +71,8 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/test/java/BabysitterCalculatorTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/BabysitterCalculator.java" />
+        <option value="$PROJECT_DIR$/test/java/BabysitterCalculatorTest.java" />
       </list>
     </option>
   </component>
@@ -534,6 +534,9 @@
     <history-entry file="BabysitterCalculatorTest - 2016.07.18 at 13h 09m 27s.xml">
       <configuration name="BabysitterCalculatorTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="BabysitterCalculatorTest - 2016.07.18 at 13h 14m 25s.xml">
+      <configuration name="BabysitterCalculatorTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -611,7 +614,7 @@
     <entry file="file://$PROJECT_DIR$/test/java/BabysitterCalculatorTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
-          <caret line="15" column="65" selection-start-line="15" selection-start-column="65" selection-end-line="15" selection-end-column="65" />
+          <caret line="15" column="66" selection-start-line="15" selection-start-column="66" selection-end-line="15" selection-end-column="66" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#265#266#0" expanded="true" />
