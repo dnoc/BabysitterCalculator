@@ -7,7 +7,18 @@ public class BabysitterCalculator {
 
     private static final int MIDNIGHT = 12;
 
-
+    /**
+     * Calculates pay based on Start, Bed, and End times.
+     *
+     * @param startTime
+     *      Time shift starts. Must be > 5, <= bedTime
+     * @param bedTime
+     *      Time kid goes to bed. Must be >= startTime, <= MIDNIGHT
+     * @param endTime
+     *      Time shift ends. Must be >= 0, <= 4.
+     * @return
+     *      Total pay or an error message if the times were out of bounds.
+     */
     public String calculate(int startTime, int bedTime, int endTime) {
         if (verifyTimes(startTime, bedTime, endTime).isEmpty()) {
             int pay = calculatePay(startTime, bedTime, endTime);
@@ -17,7 +28,17 @@ public class BabysitterCalculator {
         }
     }
 
-
+    /**
+     * Verifies times are within bounds.
+     * @param startTime
+     *      Time shift starts. Must be > 5, <= bedTime
+     * @param bedTime
+     *      Time kid goes to bed. Must be >= startTime, <= MIDNIGHT
+     * @param endTime
+     *      Time shift ends. Must be >= 0, <= 4.
+     * @return
+     *      Empty string or an error message if the times were out of bounds.
+     */
     private String verifyTimes(int startTime, int bedTime, int endTime) {
         if (startTime < 5) {
             return "Start time cannot be before 5.";
@@ -32,6 +53,17 @@ public class BabysitterCalculator {
         }
     }
 
+    /**
+     * Calculates total pay for shift based on times and rates.
+     * @param startTime
+     *      Time shift starts.
+     * @param bedTime
+     *      Time kid goes to bed.
+     * @param endTime
+     *      Time shift ends.
+     * @return
+     *      int pay, calculated total pay
+     */
     private int calculatePay(int startTime, int bedTime, int endTime) {
         int startPay = (bedTime - startTime) * START_TIME_RATE;
         int bedPay = (MIDNIGHT - bedTime) * BED_TIME_RATE;
