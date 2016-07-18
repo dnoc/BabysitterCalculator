@@ -24,7 +24,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="BabysitterCalculatorTest.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="BabysitterCalculatorTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/test/java/BabysitterCalculatorTest.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="128">
@@ -38,11 +38,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BabysitterCalculator.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="BabysitterCalculator.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/BabysitterCalculator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="18" column="9" selection-start-line="18" selection-start-column="9" selection-end-line="18" selection-end-column="9" />
+            <state relative-caret-position="408">
+              <caret line="24" column="49" selection-start-line="24" selection-start-column="49" selection-end-line="24" selection-end-column="49" />
               <folding />
             </state>
           </provider>
@@ -516,9 +516,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="BabysitterCalculatorTest - 2016.07.18 at 13h 28m 42s.xml">
-      <configuration name="BabysitterCalculatorTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="BabysitterCalculatorTest - 2016.07.18 at 13h 29m 32s.xml">
       <configuration name="BabysitterCalculatorTest" configurationId="JUnit" />
     </history-entry>
@@ -544,6 +541,9 @@
       <configuration name="BabysitterCalculatorTest" configurationId="JUnit" />
     </history-entry>
     <history-entry file="BabysitterCalculatorTest - 2016.07.18 at 14h 03m 09s.xml">
+      <configuration name="BabysitterCalculatorTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BabysitterCalculatorTest - 2016.07.18 at 14h 05m 56s.xml">
       <configuration name="BabysitterCalculatorTest" configurationId="JUnit" />
     </history-entry>
   </component>
@@ -609,6 +609,14 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/BabysitterCalculator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="24" column="49" selection-start-line="24" selection-start-column="49" selection-end-line="24" selection-end-column="49" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/test/java/BabysitterCalculatorTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="128">
@@ -618,14 +626,6 @@
             <element signature="e#265#266#0" expanded="true" />
             <element signature="e#330#331#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/BabysitterCalculator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="9" selection-start-line="18" selection-start-column="9" selection-end-line="18" selection-end-column="9" />
-          <folding />
         </state>
       </provider>
     </entry>
