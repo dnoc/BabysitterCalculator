@@ -11,6 +11,8 @@ public class BabysitterCalculator {
 
         if (startTime < 5) {
             return "Start time cannot be before 5.";
+        } else if ((startTime > bedTime) || (bedTime > MIDNIGHT)) {
+            return "Bed time must be between " + startTime + " and Midnight.";
         } else {
             int startPay = (bedTime - startTime) * START_TIME_RATE;
             int bedPay = (MIDNIGHT - bedTime) * BED_TIME_RATE;
