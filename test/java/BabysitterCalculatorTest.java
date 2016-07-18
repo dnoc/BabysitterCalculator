@@ -1,5 +1,6 @@
+import main.java.BabysitterCalculator;
 import org.junit.Test;
-import static junit.framework.TestCase
+import static junit.framework.TestCase.assertEquals;
 
 public class BabysitterCalculatorTest {
     @Test
