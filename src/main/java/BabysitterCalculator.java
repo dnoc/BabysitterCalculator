@@ -1,7 +1,7 @@
 package main.java;
 
 public class BabysitterCalculator {
-    private static final int START_TIME_RATE = 16;
+    private static final int START_TIME_RATE = 12;
     private static final int BED_TIME_RATE = 8;
 
     private static final int MIDNIGHT = 12;
