@@ -18,14 +18,15 @@ public class BabysitterCalculatorTest {
 
     @Test
     public void whenStartTimeIsLessThanFiveCalculateReturnsAMessage() {
-        assertEquals("Start time cannot be before 5.", babysitterCalculator.calculate(1, 8));
+        assertEquals("Start time cannot be before 5.", babysitterCalculator.calculate(1, 8, 4));
     }
 
     @Test
     public void whenBedTimeIsOutOfBoundsCalculateReturnsAMessage() {
-        assertEquals("Bed time must be between 6 and Midnight.", babysitterCalculator.calculate(6, 1));
-        assertEquals("Bed time must be between 6 and Midnight.", babysitterCalculator.calculate(6, 13));
-        assertEquals("Bed time must be between 5 and Midnight.", babysitterCalculator.calculate(5, 13));
+        assertEquals("Bed time must be between 6 and Midnight.", babysitterCalculator.calculate(6, 1, 4));
+        assertEquals("Bed time must be between 6 and Midnight.", babysitterCalculator.calculate(6, 13, 4));
+        assertEquals("Bed time must be between 5 and Midnight.", babysitterCalculator.calculate(5, 13, 4));
+        assertEquals("Bed time must be between 5 and Midnight.", babysitterCalculator.calculate(5, 13, 3));
     }
 
 }
