@@ -14,6 +14,14 @@ public class BabysitterCalculatorTest {
     @Test
     public void whenCalculateIsCalledItCalculatesPay() {
         assertEquals("$132.00", babysitterCalculator.calculate(5, 8, 4));
+        assertEquals("$108.00", babysitterCalculator.calculate(7, 8, 4));
+        assertEquals("$96.00", babysitterCalculator.calculate(8, 8, 4));
+        assertEquals("$124.00", babysitterCalculator.calculate(5, 6, 4));
+        assertEquals("$140.00", babysitterCalculator.calculate(5, 10, 4));
+        assertEquals("$144.00", babysitterCalculator.calculate(5, 11, 4));
+        assertEquals("$116.00", babysitterCalculator.calculate(5, 8, 3));
+        assertEquals("$84.00", babysitterCalculator.calculate(5, 8, 1));
+        assertEquals("$68.00", babysitterCalculator.calculate(5, 8, 0));
     }
 
     @Test

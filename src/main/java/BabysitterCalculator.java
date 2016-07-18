@@ -7,6 +7,7 @@ public class BabysitterCalculator {
 
     private static final int MIDNIGHT = 12;
 
+
     public String calculate(int startTime, int bedTime, int endTime) {
         if (verifyTimes(startTime, bedTime, endTime).isEmpty()) {
             int pay = calculatePay(startTime, bedTime, endTime);
@@ -16,10 +17,11 @@ public class BabysitterCalculator {
         }
     }
 
+
     private String verifyTimes(int startTime, int bedTime, int endTime) {
         if (startTime < 5) {
             return "Start time cannot be before 5.";
-        } else if ((startTime > bedTime) || (bedTime > MIDNIGHT)) {
+        } else if ((startTime > bedTime) || (bedTime >= MIDNIGHT)) {
             return "Bed time must be between " + startTime + " and Midnight.";
         } else if (endTime > 4) {
             return "End time cannot be after 4.";
